@@ -260,7 +260,7 @@ section .topic a {
 
 .contactMenu .input1 input {
 	border-radius: 13px;
-	padding: 6px;
+	padding: 10px;
 }
 
 .input2 input {
@@ -318,11 +318,6 @@ footer {
         margin-left: 80px;
     }
 
-	.contactMenu {
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.side2 img {
 		width: 95%;
 		height: 90%;
@@ -347,6 +342,18 @@ footer {
         margin-bottom: 30px;
         margin-left: 40px;
     }
+
+	.input1{
+		margin-left: auto;
+	}
+
+	.input2 input{
+		width: 300px;
+	}
+
+	.button button{
+		margin-left: -40px;
+	}
 
 	.about .boxes {
 		display: flex;
